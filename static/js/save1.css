@@ -1,0 +1,462 @@
+.container {
+	height: 100vh; text-align: center; overflow: auto;
+}
+.container .title {
+	line-height: 40px; padding-top: 5px; font-size: 28px;
+}
+.container .order {
+	line-height: 20px; font-size: 14px;
+}
+.container .zf_p {
+	margin: auto; color: rgb(101, 118, 133); line-height: 25px; font-size: 14px;
+}
+.container .wid_p {
+	width: 100%;
+}
+.radio_box {
+	width: 140px; height: 140px; margin-bottom: 30px; display: inline-block; position: relative;
+}
+.radio_box2 {
+	width: 88px; height: 88px; margin-bottom: 30px; display: inline-block; position: relative;
+}
+#bg_canvas {
+	left: 0px; top: 0px; position: absolute;
+}
+#percent_canvas {
+	left: -1px; top: -1px; position: absolute;
+}
+#bg_canvas1 {
+	left: 0px; top: 0px; position: absolute;
+}
+#percent_canvas1 {
+	left: -1px; top: -1px; position: absolute;
+}
+.center_div {
+	background: rgb(3, 186, 122); border-radius: 50%; left: 23px; top: 23px; width: 94px; height: 94px; text-align: center; color: rgb(255, 255, 255); line-height: 94px; font-size: 36px; position: absolute;
+}
+.center_div2 {
+	border-radius: 50%; left: 1px; top: 1px; width: 86px; height: 86px; text-align: center; color: rgb(3, 186, 122); line-height: 86px; font-size: 36px; position: absolute;
+}
+.c_p {
+	margin: auto auto 10px; width: 160px; color: rgb(101, 118, 133); line-height: 20px; padding-bottom: 5px; border-bottom-color: rgb(234, 234, 234); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.c_p .countdown {
+	color: rgb(255, 66, 85);
+}
+.container .zf_p .money {
+	color: black; line-height: 45px; font-size: 32px; margin-top: 5px;
+}
+.container .copy_button2 {
+	background: none; height: 24px; color: rgb(0, 131, 224); font-size: 14px; vertical-align: baseline; display: inline-block;
+}
+.container .gray {
+	color: rgb(101, 118, 133);
+}
+.zf_icon {
+	width: 16px; height: 16px; margin-right: 8px; vertical-align: text-bottom; display: inline-block; background-image: url("../images/icons_zf@2x.png"); background-size: cover;
+}
+.yhk {
+	background-position: -52px -1px;
+}
+.wx {
+	background-position: 0px 0rem;
+}
+.zfb {
+	background-position: -26px 0px;
+}
+.ewm_box {
+	width: 225px; margin-top: 5px; display: inline-block; position: relative; min-height: 225px;
+}
+.ewm_box .cancel_div {
+	background: rgba(0, 0, 0, 0.6); left: 0px; top: 0px; width: 100%; height: 100%; display: none; position: absolute; z-index: 80;
+}
+.ewm_box .cancel_div p {
+	top: 50%; width: 100%; text-align: center; color: rgb(255, 255, 255); line-height: 40px; font-size: 18px; margin-top: -20px; position: absolute;
+}
+.open_button {
+	background: rgb(255, 255, 255); margin: 10px; border-radius: 22px; border: 1px solid rgb(110, 183, 255); border-image: none; width: 210px; height: 44px; color: rgb(0, 131, 224); box-shadow: 0px 3px 10px 0px rgba(21,32,54,0.2);
+}
+.ewm_box .tishi_span {
+	background: rgba(250, 85, 92, 0.9); left: 0px; top: 0px; width: 100%; height: 32px; text-align: center; color: rgb(255, 255, 255); line-height: 32px; font-size: 14px; position: absolute;
+}
+.save_text {
+	color: rgb(3, 28, 35); line-height: 36px; font-size: 24px;
+}
+.yhk_box {
+	margin-top: 30px;
+}
+.yhk_box .blue_box {
+	background: rgb(233, 243, 251); height: 50px; text-align: left; line-height: 50px; padding-left: 17px; margin-bottom: 10px; position: relative;
+}
+.yhk_box .copy_button {
+	background: rgb(0, 131, 224); padding: 9px 14px; border-radius: 0px; width: 60px; height: 50px; right: 0px; color: rgb(255, 255, 255); line-height: 16px; position: absolute; cursor: pointer;
+}
+.yhk_box .dan {
+	background: rgb(149, 203, 242);
+}
+.yellow {
+	color: rgb(229, 180, 32); margin-bottom: 11px;
+}
+.big_button {
+	background: rgb(224, 225, 228); margin: 0px 5px; border-radius: 50px; width: 160px; height: 44px; color: rgb(255, 255, 255); line-height: 20px; cursor: pointer;
+}
+.save_button {
+	border-radius: 20px; width: 150px; height: 35px; margin-top: 20px; cursor: pointer; box-shadow: 0px 3px 10px 0px rgba(21,32,54,0.2);
+}
+.green_button {
+	background: rgb(0, 185, 120);
+}
+.cancel_button {
+	background: rgb(250, 85, 92);
+}
+.tishi_div {
+	margin: 20px auto auto; width: 336px; text-align: left; color: rgb(101, 118, 133); line-height: 25px;
+}
+.tishi_icon {
+	left: 20px; top: 17px; width: 16px; height: 16px; position: absolute; background-image: url("../images/icon_tishi@2x.png"); background-size: cover;
+}
+@media screen and (min-width:768px)
+{
+.green_div {
+	margin: auto; width: 600px;
+}
+.blue_button {
+	display: none;
+}
+}
+.tishi_tc {
+	background: rgb(255, 255, 255); border-radius: 8px; left: 50%; top: 30%; width: 245px; height: 147px; overflow: hidden; margin-left: -122.5px; display: none; position: fixed; z-index: 100;
+}
+.tishi_tc .info {
+	padding: 0px 10px; height: 25px; text-align: center; line-height: 20px; font-size: 14px; margin-top: 40px; margin-bottom: 38px;
+}
+#alert_tc2 {
+	background: rgb(255, 255, 255); border-radius: 8px; left: 50%; top: 30%; width: 260px; height: 130px; overflow: hidden; margin-left: -130px; display: none; position: fixed; z-index: 100;
+}
+#alert_tc2 .info {
+	padding: 0px 10px; height: 25px; text-align: center; line-height: 24px; font-size: 16px; margin-top: 23px; margin-bottom: 38px;
+}
+.tishi_tc .red {
+	color: rgb(250, 85, 92);
+}
+.tishi_tc .button_div {
+	height: 44px; border-top-color: rgb(243, 243, 243); border-top-width: 1px; border-top-style: solid;
+}
+.tishi_tc .button_div button {
+	background: rgb(255, 255, 255); width: 100%; height: 100%; color: rgb(0, 131, 224); border-right-color: rgb(243, 243, 243); border-right-width: 1px; border-right-style: solid; cursor: pointer;
+}
+.tishi_tc .button_div button:active {
+	background: rgb(233, 243, 251); border-right-color: rgb(243, 243, 243); border-right-width: 1px; border-right-style: solid;
+}
+#box {
+	background: rgb(255, 255, 255); margin: 0px auto; border: 1px dashed rgb(221, 227, 234); border-image: none; padding-bottom: 15px;
+}
+#box .red_p {
+	background: rgb(250, 85, 92); text-align: center; color: rgb(255, 255, 255); line-height: 32px; font-size: 18px; font-weight: 600; position: relative;
+}
+#box .red_p .red_arrow {
+	background: rgb(250, 85, 92); left: 50%; width: 8px; height: 8px; bottom: -4px; position: absolute; transform: rotate(45deg); -moz-transform: rotate(45deg); -o-transform: rotate(45deg); -webkit-transform: rotate(45deg);
+}
+.chat_div {
+	padding: 20px 20px 0rem; text-align: left; color: rgb(3, 28, 35);
+}
+.chat_div .order_title {
+	height: 42px; color: rgb(3, 28, 35); line-height: 42px; font-size: 18px; margin-bottom: 10px; position: relative; z-index: 2;
+}
+.chat_div .order_title2 {
+	background: rgb(255, 255, 255); border-radius: 0px 20px 20px 0px; left: 0px; height: 40px; bottom: 60px; color: rgb(3, 28, 35); line-height: 40px; padding-right: 20px; padding-left: 20px; font-size: 18px; position: fixed; z-index: 2; box-shadow: 0px 3px 10px 0px rgba(21,32,54,0.2);
+}
+.chat_div .order_title2 .red_point {
+	background: rgba(250, 85, 92, 1); border-radius: 50%; top: 6px; width: 8px; height: 8px; right: 12px; position: absolute;
+}
+.chat_div .fill {
+	width: 16px; margin-right: 8px; vertical-align: sub;
+}
+.chat_div .chat_box {
+	background: rgb(221, 227, 234); border-radius: 5px; overflow: auto; display: flex; position: relative; flex-direction: column;
+}
+.chat_div .chat_box .box {
+	padding: 10px 16px; width: 100%; height: 100%; overflow: hidden; min-height: 220px;
+}
+.chat_div .chat_box .self_box {
+	text-align: right; margin-bottom: 10px;
+}
+.chat_div .chat_box .other_box {
+	text-align: left; margin-bottom: 10px;
+}
+.chat_div .chat_box .self_box .info {
+	background: rgb(0, 131, 224); padding: 9px 12px; border-radius: 6px; text-align: left; color: rgb(255, 255, 255); line-height: 17px; font-size: 14px; margin-bottom: 2px; display: inline-block; position: relative; -ms-word-wrap: break-word; max-height: 252px; min-width: 48px; max-width: 252px; box-shadow: 0px 3px 0px rgba(192,197,204,1);
+}
+.chat_div .chat_box .other_box .info {
+	background: rgb(255, 255, 255); padding: 9px 12px; border-radius: 6px; text-align: left; color: rgb(3, 28, 35); line-height: 17px; font-size: 12px; margin-bottom: 2px; display: inline-block; position: relative; -ms-word-wrap: break-word; min-width: 48px; max-width: 252px; box-shadow: 0px 3px 0px rgba(192,197,204,1);
+}
+.chat_div .chat_box .info img {
+	width: 100%;
+}
+.chat_div .chat_box .self_box .info .info_arrow {
+	width: 12px; right: -12px; bottom: -3px; display: none; position: absolute;
+}
+.chat_div .chat_box .other_box .info .info_arrow {
+	left: -12px; width: 12px; bottom: -3px; display: none; position: absolute;
+}
+.chat_div .chat_box .self_box :last-child.info {
+	border-radius: 6px 6px 0px;
+}
+.chat_div .chat_box .other_box :last-child.info {
+	border-radius: 6px 6px 6px 0px;
+}
+.chat_div .chat_box .self_box :last-child.info .info_arrow {
+	display: inline-block;
+}
+.chat_div .chat_box .other_box :last-child.info .info_arrow {
+	display: inline-block;
+}
+.chat_div .chat_box .botto_div {
+	background: rgb(221, 227, 234); padding: 5px; width: 100%; bottom: 0px; font-size: 0px; display: inline-flex; position: relative; min-height: 40px; max-height: 66px;
+}
+.chat_div .chat_box .botto_div input {
+	padding: 4px; width: 40px; height: 40px; right: 6px; bottom: 4px; opacity: 0;
+}
+.chat_div .chat_box .botto_div img {
+	padding: 4px; width: 40px; height: 40px; right: 6px; bottom: 4px;
+}
+.chat_div .chat_box .botto_div .textarea {
+	background: rgb(255, 255, 255); padding: 10px 15px; border-radius: 19px; flex:1 1 0px; width: 230px; margin-right: 5px; display: inline-block;
+}
+.chat_div .chat_box .botto_div button {
+	background: rgb(255, 255, 255); padding: 10px; border-radius: 19px; display: inline-block;
+}
+.chat_div .chat_box .botto_div .textarea textarea {
+	background: rgb(255, 255, 255); border: currentColor; border-image: none; width: 100%; height: 18px; line-height: 17px; overflow: hidden; font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; min-height: 18px; max-height: 36px; -webkit-appearance: none; resize: none;
+}
+.chat_div .chat_box .time {
+	text-align: center; color: rgb(166, 174, 185); line-height: 17px; font-size: 14px; margin-bottom: 10px;
+}
+#state_box2 {
+	padding-bottom: 64px;
+}
+#state_box3 {
+	padding-top: 60px;
+}
+#state_box2 {
+	display: none;
+}
+#state_box3 {
+	display: none;
+}
+.importTc {
+	background: rgba(49, 49, 49, 0.8); padding: 30px 15px; width: 100%; height: 100%; display: flex; position: fixed; z-index: 101; max-width: 750px; justify-content: center; align-items: center;
+}
+#importTc .tc_container {
+	background: rgb(255, 255, 255); padding: 25px 15px; border-radius: 8px; width: 100%; height: 100%; display: flex; position: relative; max-height: 550px; max-width: 340px; flex-direction: column;
+}
+#fkTc .tc_container {
+	background: rgb(255, 255, 255); padding: 25px 15px; border-radius: 8px; width: 100%; display: flex; position: relative; max-width: 340px; flex-direction: column;
+}
+#cancelTc .tc_container {
+	background: rgb(255, 255, 255); padding: 25px 15px; border-radius: 8px; width: 100%; height: 100%; overflow: hidden; display: flex; position: relative; max-height: 340px; max-width: 300px; flex-direction: column;
+}
+#cancelTc .select_div {
+	padding: 0px 20px; line-height: 28px;
+}
+#cancelTc .select_div .checkbox {
+	border-radius: 50%; border: 1px solid rgb(180, 188, 196); border-image: none; width: 14px; height: 14px; margin-right: 10px; vertical-align: middle;
+}
+#cancelTc .select_div .active .checkbox {
+	border: currentColor; border-image: none; background-image: url("../images/icon_option@2x.png"); background-size: cover;
+}
+#cancelTc .select_div .active {
+	color: rgb(0, 131, 224);
+}
+#cancelTc .button_div {
+	left: 0px; width: 100%; bottom: 0px; display: flex; position: absolute;
+}
+#cancelTc .button_div button {
+	background: rgb(255, 255, 255); width: 50%; height: 44px; color: rgb(0, 131, 224); border-top-color: rgb(243, 243, 243); border-top-width: 1px; border-top-style: solid;
+}
+#cancelTc .button_div button:active {
+	background: rgb(243, 243, 243);
+}
+#cancelTc .button_div button:first-child {
+	border-right-color: rgb(243, 243, 243); border-right-width: 1px; border-right-style: solid;
+}
+#cancelTc .select_div #otherText {
+	margin: 10px 0px 25px; padding: 10px; border-radius: 8px; border: 1px solid rgb(221, 227, 234); border-image: none; width: 100%; height: 80px; line-height: 20px; -webkit-appearance: none; resize: none;
+}
+.importTc .tc_container .close {
+	top: 0px; width: 44px; height: 44px; right: 0px; position: absolute;
+}
+#importTc .tc_container .bottom {
+	height: 135px; padding-top: 15px;
+}
+#fkTc .tc_container .bottom .text {
+	line-height: 44px;
+}
+#fkTc .tc_container .bottom .text input {
+	border-radius: 8px; border: 1px solid rgb(234, 234, 234); border-image: none; width: 140px; height: 44px; padding-left: 15px; font-size: 18px;
+}
+#fkTc .tc_container .bottom .text .left {
+	width: 120px;
+}
+.importTc .tc_container .bottom .check_icon {
+	border-radius: 3px; border: 1px solid rgb(180, 188, 196); border-image: none; width: 14px; height: 14px; margin-right: 6px; vertical-align: middle; display: inline-block;
+}
+.importTc .tc_container .bottom .active {
+	border: currentColor; border-image: none; background-image: url("../images/icons_otc@2x.png"); background-position-x: -150px; background-size: 164px 56px;
+}
+.importTc .tc_container .bottom .blue {
+	height: 17px; text-align: center; color: rgb(0, 131, 224); font-size: 12px; margin-bottom: 10px;
+}
+.importTc .tc_container .bottom .button {
+	background: linear-gradient(270deg, rgb(80, 183, 243), rgb(4, 87, 196)); border-radius: 3px; width: 78%; height: 44px; color: rgb(255, 255, 255); font-size: 14px; margin-right: 10px;
+}
+#fkTc .tc_container .bottom .cancel_button {
+	background: rgb(255, 255, 255); border-radius: 3px; border: 1px solid rgb(234, 234, 234); border-image: none; width: 60px; height: 44px; line-height: 24px;
+}
+.importTc .tc_container .content {
+	flex:1 1 0px; overflow: auto; padding-bottom: 10px;
+}
+.importTc .tc_container .content p {
+	color: rgb(96, 119, 135); line-height: 20px; font-size: 14px; margin-bottom: 20px;
+}
+.importTc .tc_container .content p .red {
+	margin: 0px 5px; color: rgb(250, 85, 92);
+}
+.importTc .tc_container .close img {
+	margin: 16px; width: 12px;
+}
+.importTc .tc_container .im_title {
+	text-align: center; line-height: 25px; font-size: 18px; margin-bottom: 15px;
+}
+.top_info {
+	margin: 0px auto; padding: 15px 20px 0px; width: 335px; color: rgb(101, 118, 133); display: block;
+}
+.top_info #orderState {
+	color: rgb(250, 85, 92); line-height: 33px; font-size: 24px;
+}
+.top_info #js_time {
+	color: rgb(250, 85, 92); line-height: 20px; font-size: 16px; margin-left: 6px;
+}
+.ts_icon {
+	top: 90px; width: 96px; right: -10px; position: absolute; z-index: 81;
+}
+.ti_p {
+	padding: 0px 20px; margin-top: 15px;
+}
+.ti_p .ticon {
+	width: 22px; height: 18px; display: inline-block; background-image: url("../images/icons_shouyintai@2x.png"); background-size: cover;
+}
+.ti_p .icon1 {
+	background-position-x: 0px;
+}
+.ti_p .icon2 {
+	width: 26px;
+}
+.ti_p .icon_wx {
+	background-position-x: -26px;
+}
+.ti_p .icon_zfb {
+	background-position-x: -84px;
+}
+.ti_p .icon_qq {
+	background-position-x: -112px;
+}
+.ti_p .icon_ysf {
+	background-position-x: -144px;
+}
+.ti_p .icon3 {
+	background-position-x: -56px;
+}
+.ti_p .arrow {
+	margin-left: 8px; vertical-align: super;
+}
+.ti_p .arrow span:first-child {
+	background: rgb(201, 225, 255); width: 48px; height: 1px; vertical-align: super; display: inline-block;
+}
+.ti_p .arrow span:last-child {
+	border-width: 6px 10px; border-style: solid; border-color: transparent transparent transparent rgb(201, 225, 255); display: inline-block;
+}
+#box1 {
+	position: relative;
+}
+#box {
+	max-width: 335px;
+}
+.ti_t {
+	padding: 0px 20px; margin-top: 5px; display: flex; justify-content: space-between;
+}
+.ti_t > div {
+	text-align: center; line-height: 14px; font-size: 10px;
+}
+.ti_t > div:nth-child(1) {
+	width: 84px;
+}
+.ti_t > div:nth-child(2) {
+	width: 60px;
+}
+.account_p {
+	background: rgb(233, 243, 251); padding: 10px 10px 10px 20px; height: 75px; margin-top: 15px;
+}
+.account_p .right {
+	color: rgb(3, 28, 35);
+}
+.bottom_div {
+	background: rgb(255, 255, 255); padding: 5px 20px; left: 0px; width: 100%; height: 54px; bottom: 0px; display: flex; position: fixed; z-index: 90; justify-content: center;
+}
+.bottom_div .fk_button {
+	background: linear-gradient(270deg, rgb(80, 183, 243), rgb(4, 87, 196)); border-radius: 3px; width: 270px; height: 44px; color: rgb(255, 255, 255); margin-right: 8px; cursor: pointer;
+}
+.bottom_div .cancel_button {
+	background: rgb(255, 255, 255); border-radius: 3px; border: 1px solid rgb(180, 188, 196); border-image: none; width: 55px; height: 44px; color: rgb(101, 118, 133); cursor: pointer;
+}
+.bottom_div .press_button {
+	background: rgb(101, 118, 133); border-radius: 3px; width: 375px; height: 44px; color: rgb(255, 255, 255); display: none; cursor: pointer;
+}
+.fcTishi {
+	background: rgb(255, 240, 241); padding: 1px 1px 1px 6px; border-radius: 0px 24px 24px 0px; border: 1px solid rgb(250, 85, 92); border-image: none; top: 424px; width: 150px; height: 48px; color: rgb(250, 85, 92); font-size: 12px; display: flex; position: fixed; z-index: 90; box-sizing: border-box; box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.15); justify-content: space-between; align-items: center;
+}
+.hide {
+	display: none;
+}
+.fcTishi p {
+	width: 172px; text-align: left;
+}
+.fcTishi img {
+	cursor: pointer;
+}
+#yun_div {
+	background: rgb(233, 243, 251); margin: 0px auto; border: 1px dashed rgb(221, 227, 234); border-image: none; display: none; max-width: 335px;
+}
+.tishi_div {
+	background: rgb(233, 243, 251); margin: 0px auto; border: 1px dashed rgb(221, 227, 234); border-image: none; top: 5px; width: 100%; text-align: center; color: rgb(18, 140, 227); line-height: 30px; font-size: 18px; font-weight: 600; position: relative; z-index: 81; max-width: 335px;
+}
+.tishi_div .blue_arrow {
+	background: rgb(233, 243, 251); left: 50%; width: 8px; height: 8px; bottom: -4px; border-right-color: rgb(221, 227, 234); border-bottom-color: rgb(221, 227, 234); border-right-width: 1px; border-bottom-width: 1px; border-right-style: dashed; border-bottom-style: dashed; position: absolute; transform: rotate(45deg); -moz-transform: rotate(45deg); -o-transform: rotate(45deg); -webkit-transform: rotate(45deg);
+}
+.yun_text {
+	padding: 15px 0px 0px 20px; height: 73px; text-align: left;
+}
+.yun_text p {
+	font-size: 18px; margin-bottom: 3px;
+}
+.yun_text > div {
+	line-height: 28px; overflow: hidden; padding-right: 28px; font-size: 12px; white-space: nowrap; position: relative; -ms-text-overflow: ellipsis;
+}
+.yun_text > div span {
+	margin-right: 10px;
+}
+.moreBank {
+	background: none; height: 28px; right: 0px; color: rgb(0, 131, 224); font-size: 12px; position: absolute; cursor: pointer;
+}
+#bankTc .tc_container {
+	background: rgb(255, 255, 255); border-radius: 8px; width: 100%; display: flex; position: relative; max-width: 340px; flex-direction: column;
+}
+#bankTc .tc_container .yun_top {
+	background: rgb(26, 92, 151); border-radius: 8px 8px 0px 0px; height: 85px; text-align: center; color: rgb(255, 255, 255); line-height: 28px; padding-top: 15px; font-size: 20px;
+}
+#bankTc .tc_container .yun_bottom {
+	padding: 10px 0px 30px;
+}
+#bankTc .tc_container .yun_bottom img {
+	width: 100%;
+}
